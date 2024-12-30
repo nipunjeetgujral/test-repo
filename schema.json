@@ -1,0 +1,34 @@
+{
+  "ohlc" : {
+    "uid": "bigint",
+    "date": "timestamp without time zone",
+    "open": "double precision",
+    "high": "double precision",
+    "low": "double precision",
+    "close": "double precision",
+    "volume": "bigint",
+    "volumenotional": "bigint",
+    "tradesdone": "bigint"
+  },
+  "text_source" : {
+    "id": "bigint",
+    "title": "text",
+    "publisheddate": "timestamp without time zone",
+    "crawldate": "timestamp without time zone",
+    "description": "text",
+    "url": "text",
+    "source": "text"
+  },
+  "text_tags" : {
+    "id": "bigint",
+    "tags": "text[]"
+  },
+  "text_tickers" : {
+    "id": "bigint",
+    "tickers": "text[]"
+  },
+  "text_text" : {
+    "id": "bigint",
+    "text": "text"
+  }
+}
