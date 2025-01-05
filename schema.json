@@ -6,18 +6,18 @@
     "high": "double precision",
     "low": "double precision",
     "close": "double precision",
+    "tradesdone": "bigint",
     "volume": "bigint",
-    "volumenotional": "bigint",
-    "tradesdone": "bigint"
+    "volumenotional": "bigint"
   },
   "text_source" : {
-    "id": "bigint",
-    "title": "text",
-    "publisheddate": "timestamp without time zone",
     "crawldate": "timestamp without time zone",
     "description": "text",
-    "url": "text",
-    "source": "text"
+    "id": "bigint",
+    "publisheddate": "timestamp without time zone",
+    "source": "text",
+    "title": "text",
+    "url": "text"
   },
   "text_tags" : {
     "id": "bigint",
